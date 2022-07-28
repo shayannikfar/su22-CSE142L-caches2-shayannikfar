@@ -1,0 +1,3 @@
+MATEXP_OPTIMIZE=-O3
+
+

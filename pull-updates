@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo "======= SAVE YOUR NOTEBOOK (then press 'return') =========="
+read
+
+cp Lab.ipynb Lab.backup.ipynb
+git commit -am "My progress so far."
+git pull --no-edit upstream main -X ours
